@@ -1,7 +1,8 @@
 {
   "name": "jy-tools",
+  "description": "一些函数",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.0",
   "module": "./dist/jy-tools.js",
   "type": "module",
   "exports": {
@@ -42,5 +43,12 @@
     "typescript-eslint": "^8.40.0",
     "vite": "^7.1.3",
     "vitest": "^3.2.4"
-  }
+  },
+  "author": "jiyuchen",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jijieoo/jy-tools.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/jijieoo/jy-tools#readme"
 }
