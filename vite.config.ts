@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 import packageJson from "./package.json";
 
 const getPackageName = () => {
-  return packageJson.name;
+  return packageJson.name.split("/").pop() ?? "";
 };
 
 const getPackageNameCamelCase = () => {
@@ -31,6 +31,11 @@ export default defineConfig({
       name: getPackageNameCamelCase(),
       formats,
       fileName: format => fileName[format],
+    },
+    rollupOptions: {
+      output: {
+        extend: true,
+      },
     },
   },
   test: {
