@@ -1,7 +1,6 @@
 {
   "name": "jy-tools",
   "description": "一些函数",
-  "private": true,
   "version": "0.0.0",
   "module": "./dist/jy-tools.js",
   "type": "module",
