@@ -1,0 +1,6 @@
+# 强制所有文本文件使用 LF 换行符
+* text eol=lf
+
+# 或者针对特定文件类型
+*.ts text eol=lf
+*.vue text eol=lf
