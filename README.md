@@ -35,35 +35,6 @@ DiffResult<T, U> = {
 
 返回一个包含所有属性差异的对象，每个属性的值是一个 `DiffDetail` 对象，包含差异类型和前后值。
 
-#### DiffDetail 类型
-
-```typescript
-interface DiffDetail<BeforeValueType, AfterValueType> {
-  type?: DiffType;
-  beforeValue: BeforeValueType;
-  afterValue: AfterValueType;
-}
-```
-
-| 属性名        | 类型              | 描述                                                  |
-| ------------- | ----------------- | ----------------------------------------------------- |
-| `type`        | `DiffType`        | 差异类型，包括 "CHANGE"、"ADD"、"DELETE"、"UNCHANGED" |
-| `beforeValue` | `BeforeValueType` | 变更前的值                                            |
-| `afterValue`  | `AfterValueType`  | 变更后的值                                            |
-
-#### DiffType 类型
-
-```typescript
-type DiffType = "CHANGE" | "ADD" | "DELETE" | "UNCHANGED";
-```
-
-| 值            | 描述           |
-| ------------- | -------------- |
-| `"CHANGE"`    | 属性值发生变化 |
-| `"ADD"`       | 新增属性       |
-| `"DELETE"`    | 删除属性       |
-| `"UNCHANGED"` | 属性值未变化   |
-
 ### 基本用例
 
 #### 1. 属性值变更

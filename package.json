@@ -1,5 +1,8 @@
 {
   "name": "@jy-workspace/tools",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "一些函数",
   "version": "0.0.0",
   "module": "./dist/jy-tools.js",
