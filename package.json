@@ -5,6 +5,9 @@
   },
   "description": "一些函数",
   "version": "1.0.0",
+  "files": [
+    "dist"
+  ],
   "module": "./dist/jy-tools.js",
   "type": "module",
   "exports": {

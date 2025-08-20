@@ -32,11 +32,6 @@ export default defineConfig({
       formats,
       fileName: format => fileName[format],
     },
-    rollupOptions: {
-      output: {
-        extend: true,
-      },
-    },
   },
   test: {
     watch: false,
