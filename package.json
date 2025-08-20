@@ -1,5 +1,5 @@
 {
-  "name": "@jy/tools",
+  "name": "@jy-workspace/tools",
   "description": "一些函数",
   "version": "0.0.0",
   "module": "./dist/jy-tools.js",
