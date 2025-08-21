@@ -1,5 +1,5 @@
 {
-  "name": "@jy-workspace/tools",
+  "name": "@jy-space/tools",
   "publishConfig": {
     "access": "public"
   },
@@ -8,11 +8,11 @@
   "files": [
     "dist"
   ],
-  "module": "./dist/jy-tools.js",
+  "module": "./dist/tools.js",
   "type": "module",
   "exports": {
     ".": {
-      "import": "./dist/jy-tools.js"
+      "import": "./dist/tools.js"
     },
     "./dist/": {
       "import": "./dist/"
